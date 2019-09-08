@@ -2,7 +2,7 @@ const app = require("./app");
 const mongoose = require("mongoose");
 //create a server object:
 mongoose.connect(
-  "mongodb+srv://dev:laisserpasser@cluster0-9a5cn.mongodb.net/e-job?retryWrites=true",
+  "mongodb+srv://dev:werguy@r@m2019@cluster0-9a5cn.mongodb.net/e-job?retryWrites=true",
   { useNewUrlParser: true },
   err => {
     if (err) return console.log("MongoDB connection failed");
